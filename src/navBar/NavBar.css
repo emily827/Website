@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #103163;
+    position: sticky;
+}
+
+li {
+    float: right;
+}
+
+.emilyLink {
+    float: left;
+    display: block;
+    margin-left: 5%;
+}
+
+.contactMe {
+    float: right;
+    display: block;
+    margin-right: 5%;
+}
+
+li a {
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 23px;
+}
+
+li a:hover {
+    color: #9DCAE3;
+}
