@@ -12,8 +12,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar/>
+        {/* <NavBar/>
         <FrontPage/>
+        <div> */}
+          <SkillsProjects/>
+          {/* </div> */}
         
       </div>
       // <div className="App">

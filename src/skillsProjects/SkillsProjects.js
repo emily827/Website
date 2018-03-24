@@ -1,25 +1,37 @@
 import React from 'react';
 import classes from './SkillsProjects.css';
 
-const style = { 
-    height: "100%",
-    padding: 0,
-    margin: 0
-}
-
 const skillsProjects = () => {
     return (    
-        <div style={style}>
-            <div>UMMMMM ISN'T THERE SUPPOSED TO STUFF HERE? </div>
-            <div id="box1" style={{background: "#429CD7"}}/>
-            <div id="box2" style={{background: "#3E7180"}}/>
-            <div id="box3" style={{background: "#9BC8E2"}}/>
-            <div id="box4" style={{background: "#7CD5EA"}}/>
-            <div id="box5" style={{background: "#6BBC8A"}}/>
-            <div id="box6" style={{background: "#429CD7"}}/>
-            <div id="box7" style={{background: "#449E7D"}}/>
-            <div id="box8" style={{background: "#4A6C82"}}/>
-            <div id="box9" style={{background: "#7CD5EA"}}/>
+        <div className={classes.grid}>
+            <div className={classes.cell1}>
+                <p className={classes.text}>Skills and Projects</p>
+            </div>
+            <div className={classes.cell2}>
+                <p className={classes.text}> Tetris </p>
+                <img className={classes.rs2} src="./Tetris.jpeg" alt="Tetris implemented on a Tiva microprocessor"/>
+            </div>
+            <div className={classes.cell3}>
+                <p className={classes.text}> Coursera's Machine Learning Course </p>
+            </div>
+            <div className={classes.cell4}> 
+                <p className={classes.text}> BeamChase </p>
+            </div>
+            <div className={classes.cell5}>
+                <p className={classes.text}> Address Book </p>
+            </div>
+            <div className={classes.cell6}>
+                <p className={classes.text}> Morse Code </p>
+            </div>
+            <div className={classes.cell7}>
+                <p className={classes.text}> Announcement Catalogue </p>
+            </div>
+            <div className={classes.cell8}>
+                <p className={classes.text}> Check out my Github account below! </p>
+            </div>
+            <div className={classes.cell9}> 
+                <p className={classes.text}> Minesweeper </p>
+            </div>
         </div>
     );
 }
