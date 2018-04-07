@@ -40,17 +40,15 @@
     font-family: 'Pontano Sans', sans-serif;
     font-size: 32px;    
     color: #F2F2F2;
-    padding-bottom: 15px;
     text-align: center;
+    margin-bottom: 18px;
 }
 
 .linkedIn {
-    margin-top: 3%;
     background-color: rgba(42, 162, 168, 0);        
 }
 
 .github {
-    margin-top: 3%;
     background-color: rgba(42, 162, 168, 0);        
     margin-left: 5%;
 }
