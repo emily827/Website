@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <a target="_blank" href='https://www.linkedin.com/in/emily-lin-95b636124'>
                         <img className={classes.linkedIn} src={linkedIn} alt="LinkedIn Icon"/>
                     </a>
-                    <a target="_blank" href='https://www.linkedin.com/in/emily-lin-95b636124'>
+                    <a target="_blank" href='https://github.com/emily827'>
                         <img className={classes.github} src={github} alt="Github Icon"/>
                     </a>
                 </div>   
