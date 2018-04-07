@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Pontano+Sans');
+
+.backgroundStyle {
+    background: url("../Resources/Images/AboutMe.svg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    width: 200%;
+    height: 100%;
+}
+
+.text {
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.title {
+    font-family: 'Special Elite', cursive;
+    font-size: 100px;  
+    color: #F2F2F2;  
+    text-align: center; 
+    margin-bottom:0px;
+}
+
+.paragraph {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 32px;    
+    color: #F2F2F2;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.connect {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 32px;    
+    color: #F2F2F2;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.linkedIn {
+    margin-top: 3%;
+    background-color: rgba(42, 162, 168, 0);        
+}
+
+.github {
+    margin-top: 3%;
+    background-color: rgba(42, 162, 168, 0);        
+    margin-left: 5%;
+}
