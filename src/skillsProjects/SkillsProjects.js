@@ -9,7 +9,7 @@ import Minesweeper from '../Resources/Images/Minesweeper.png';
 import AddressBook from '../Resources/Images/AddressBook.png';
 import SkillsImage from "../Resources/Images/SkillsProjects.png";
 import Website from '../Resources/Images/Website.png';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Modal from "../modal/Modal.js";
 
 class SkillsProjects extends React.Component {

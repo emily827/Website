@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './AboutMe.css';
 import linkedIn from '../Resources/Images/LinkedIn.svg';
 import github from '../Resources/Images/GitHub.svg';
-import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (

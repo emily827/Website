@@ -6,7 +6,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #103163;
+    position: -webkit-sticky; /* Safari */
     position: sticky;
+    top: 0;
 }
 
 li {
@@ -17,6 +19,12 @@ li {
     float: left;
     display: block;
     margin-left: 5%;
+}
+
+.logo {
+    float: left;
+    display: block;
+    padding: 3px 20px;
 }
 
 .contactMe {
