@@ -1,40 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #103163;
-    position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #103163;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 li {
-    float: right;
+  float: right;
 }
 
 .emilyLink {
-    float: left;
-    display: block;
-    margin-left: 5%;
+  float: left;
+  display: block;
+  margin-left: 2%;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+  font-size: 23px;
+  color: #F2F2F2;
 }
 
-.contactMe {
-    float: right;
-    display: block;
-    margin-right: 5%;
+.logo {
+  float: left;
+  display: block;
+  padding: 3px 20px;
+  height: 40px;
+  width:80px;
 }
 
 li a {
-    display: block;
-    color: #F2F2F2;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-    font-family: 'Special Elite', cursive;
-    font-size: 23px;
+  display: block;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+  font-size: 23px;
 }
 
 li a:hover {
-    color: #9DCAE3;
+  color: #9DCAE3;
+}
+
+nav {
+  background-color: #103163;
 }
