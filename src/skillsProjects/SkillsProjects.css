@@ -22,13 +22,8 @@
 }
 
 .cell1 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 8%; 
-    margin:1%;
-    overflow:hidden;
-    background-color: #429CD7
+    max-height: 33.333%;
+    background-color: #429CD7;
 }
 
 .rs2 {
@@ -41,50 +36,29 @@
 }
 
 .cell2 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 3.25%; 
-    margin:1%;
-    overflow:hidden;
+    max-height: 33.333%;
     background-color: #3E7180
 }
 
 .cell2:hover {
-    width: 32%;
-    margin: 0.1%;
     background-color: #2B515C;
 }
 
 .cell3 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 8.1%;
-    margin:1%;
-    overflow:hidden;
+    max-height: 33.333%;
     background-color: #9BC8E2
 }
 
 .cell3:hover {
-    width:32%;
-    margin: 0.5%;
     background-color: rgb(114, 151, 172);
 }
 
 .cell4 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 15%; 
-    margin:1%;
-    overflow:hidden;
+    max-height: 33.333%;
     background-color: #7CD5EA
 }
 
 .cell4:hover {
-    width:31%;
-    margin: 0.1%;
     background-color: rgb(87, 149, 163)    
 }
 
@@ -98,75 +72,42 @@
 }
 
 .cell5 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 12%;
-    margin:1%;
-    overflow:hidden;
     background-color: #6BBC8A;
 }
 
 .cell5:hover {
-    width:31%;
-    margin: 0.1%;
     background-color: rgb(76, 138, 99);    
 }
 
 .cell6 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 0.7%;
-    margin:1%;
-    overflow: hidden;
+    max-height: 33.333%;
     background-color: #429CD7;
 }
 
 .cell6:hover {
-    width:30.5%;
     background-color: rgb(53, 119, 160);    
 }
 
 .cell7 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    margin: 1%;
-    /* padding-bottom: 0.01%;      */
-    overflow: hidden;
+    max-height: 33.333%;
     background-color: #449E7D;
 }
 
 .cell7:hover {
-    width:31%;
-    margin: 0.1%;
     background-color: rgb(49, 114, 90);    
 }
 
 .cell8 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 20%; 
-    margin:1%;
-    overflow:hidden;
+    max-height: 33.333%;
     background-color: #4A6C82;
 }
 
 .cell9 { 
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 9.9%; 
-    margin: 1%;
-    overflow:hidden;
+    max-height: 33.333%;
     background-color: #7CD5EA;
 }
 
 .cell9:hover {
-    width:31%;
-    margin: 0.1%;
     background-color: rgb(85, 142, 155);    
 }
 
@@ -183,9 +124,8 @@
     margin-left: 10%;
     margin-right: 10%;    
     background-color: #36C5CF; 
-    padding: 20px 30px;
+    padding: 20px 20px;
     text-align: center;  
-    width: 65%;
 }
 
 .button a {
@@ -197,4 +137,42 @@
 
 .button:hover {
     background-color: #2AA0A8;        
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+/* @media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+} */
+
+.center {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
 }
